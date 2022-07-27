@@ -2,20 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <title>Product</title>
 </head>
 <body>
-    <div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
   <div class="search-container">
     <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="what are you looking for">
+      <input type="text" placeholder="what are you looking for" name="what are you looking for">
       <button type="submit">search</button>
     </form>
   </div>
 </div>
-
 </body>
 </html>
