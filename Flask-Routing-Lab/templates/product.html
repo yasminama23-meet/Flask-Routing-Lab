@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style> 
+    img {
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   padding: 10px;
+   width: 500px;
+ }
+ </style>
     <title>Product</title>
 </head>
 <body>
+  <img src="/static/h.jpg">
+  <img src="/static/d.jpeg">
+  <img src="/static/s.jpg">
   <div class="search-container">
     <form action="/action_page.php">
       <input type="text" placeholder="what are you looking for" name="what are you looking for">
