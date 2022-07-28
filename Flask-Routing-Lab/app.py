@@ -8,7 +8,7 @@ app = Flask(  # Create a flask app
 
 
 @app.route('/home')  # '/' for the default page
-def about():
+def home():
     return render_template('home.html')
 
 
@@ -25,7 +25,7 @@ def about():
 
 
 @app.route('/product')  # '/' for the default page
-def about():
+def product():
     return render_template('product.html')
    
 

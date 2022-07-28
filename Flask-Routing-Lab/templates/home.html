@@ -22,10 +22,13 @@
   <h1>welcome to yas's website</h1>
 </div>
     <div class="navbar">
-  <a href="cart">my cart</a>
-  <a href="home">home page</a>
-  <a href="product">shop now</a>
-  <a href="cart" class="right">sign up/log in</a>
+
+  <a href="{{ url_for('my cart') }}">mt cart</a>
+  <a href="{{ url_for('home') }}">home page</a>
+  <a href="{{ url_for('product') }}">shop now</a>
+  <a href="{{ url_for('my cart') }}">sign up/log in</a>
+
+
 </div>
 <img src="/static/shop2.j">
 </body>
