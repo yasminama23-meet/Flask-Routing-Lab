@@ -20,8 +20,8 @@ def x():
 
 
 @app.route('/about')  # '/' for the default page
-def about():
-    return render_template('about.html')
+def cart():
+    return render_template('cart.html')
 
 
 @app.route('/product')  # '/' for the default page
