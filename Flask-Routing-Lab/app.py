@@ -1,6 +1,4 @@
 from flask import Flask, jsonify, request, render_template, url_for
-import random
-import requests, json
 
 app = Flask(  # Create a flask app
     __name__,
